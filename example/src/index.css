@@ -1,0 +1,54 @@
+#error {
+  color: #fe5963;
+  font-family: '宋体', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0 0;
+}
+
+li {
+  background: #bbb;
+  display: inline-block;
+}
+
+li + li {
+  margin-left: 10px;
+}
+
+.tree-warp {
+  display: none;
+  position: relative;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+}
+
+#resutl {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.tree-warp > .item {
+  width: 58px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 58px;
+  border: 1px solid #fe6549;
+  color: #333333;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+textarea {
+  height: 200px;
+  width: 300px;
+  resize: none;
+  padding: 5px 10px;
+  font-size: 16px;
+}

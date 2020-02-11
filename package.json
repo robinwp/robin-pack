@@ -1,0 +1,16 @@
+{
+  "name": "robin-pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "robin-pack": "./bin/index.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.8.3",
+    "@babel/parser": "^7.8.4",
+    "@babel/traverse": "^7.8.3",
+    "@babel/types": "^7.8.3",
+    "fs-extra": "^8.1.0"
+  }
+}
